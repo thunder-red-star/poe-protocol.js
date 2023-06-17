@@ -15,6 +15,7 @@ class Bot {
 		this.eventEmitter = new EventEmitter();
 		this.authKey = null;
 
+		// TODO: this is useless so lets make it useful
 		this.app.use(cors());
 		this.app.use(bodyParser.json());
 		this.app.use(bodyParser.urlencoded({ extended: true }));

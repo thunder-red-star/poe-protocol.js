@@ -1,15 +1,28 @@
 # poe-protocol
-This is a name reservation for now. I am working on the core of this library. This library is written in CJS, if anyone
-wants to do an ESM port and open a PR, I will gladly accept it.
+Simple bot library for Poe (not the game, the chat app) written with Express.js and some other middleware. This library 
+is written in CJS, if anyone wants to do an ESM port and open a PR, I will gladly accept it. 
 
 ## Installation
 ```bash
 npm install poe-protocol
 ```
 
-## Usage
+## Quick Start
 ```javascript
-const poe = require('poe-protocol');
+const Poe = require('poe-protocol');
+
+const bot = new Poe.Bot();
+
+bot.on('start', () => {
+  console.log('Bot server started');
+});
+
+bot.on('query', (query) => {
+  bot.text(`Hello world`);
+  bot.done();
+});
+
+bot.start(3000);
 ```
 
 ## License
