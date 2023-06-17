@@ -4,11 +4,11 @@ Keeping poe-protocol.js secure is critical to protecting all the amazing bots pe
 
 ## The Versions That Matter
 
-Right now, we're focused on supporting version **1.1.0**. If you spot an issue in versions 1.0.0 or 1.0.1, we unfortunately can't patch them (as they are empty), but please still report it so we know to fix it in the future!
+Right now, we're focused on supporting version **1.1.1**. If you spot an issue in versions 1.0.0 or 1.0.1, we unfortunately can't patch them (as they are empty), but please still report it so we know to fix it in the future!
 
 | Version | Supported  |
 |:-:|:-:| 
-| 1.1.0 | :shield:  |
+| 1.1.x | :shield:  |
 | 1.0.x   | :x: |
 
 ## Be a Hero: Report Vulnerabilities ASAP!

@@ -15,7 +15,7 @@ const bot = new Poe.Bot(
 	});
 
 bot.on('query', async (message) => {
-	let messageString = `I agree with your statement, "${message.query[message.query.length - 1].content}". It's brilliant!`;
+	let messageString = `I agree with your statement, "${message.query[message.query.length - 1].content}".`;
 
 	// Split into letters, so we can simulate typing
 	let letters = messageString.split('');

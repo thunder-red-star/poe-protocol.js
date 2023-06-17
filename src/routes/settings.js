@@ -14,7 +14,6 @@ module.exports = {
 			snakeCaseSettings[snakeCaseString(key)] = bot.options.poeSettings[key];
 		}
 
-		console.log(snakeCaseSettings)
 		res.end(JSON.stringify(snakeCaseSettings));
 	}
 }
